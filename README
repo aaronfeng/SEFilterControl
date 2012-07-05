@@ -1,0 +1,9 @@
+A dummy project to house https://github.com/ShadyElyaski/ios-filter-control
+that just includes the *.h and *.m file.
+
+Generated bridge metadata file for RubyMotion.  The bridge metadata was moved
+to the root of the project in order for RubyMotion to work correctly.
+
+Command used to generate the bridge metadata:
+
+gen_bridge_metadata -F complete --no-64-bit -c '-I.' *.h -o BridgeSupport.bridgesupport

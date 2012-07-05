@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='SEFilterControl'>
+<method selector='SelectedIndex'>
+<retval declared_type='int' type='i'/>
+</method>
+<method selector='initWithFrame:Titles:'>
+<arg name='frame' declared_type='CGRect' type='{CGRect={CGPoint=ff}{CGSize=ff}}' index='0'/>
+<arg name='titles' declared_type='NSArray*' type='@' index='1'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='progressColor'>
+<retval declared_type='int*' type='^i'/>
+</method>
+<method selector='setHandlerColor:'>
+<arg name='color' declared_type='id' type='@' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setProgressColor:'>
+<arg name='progressColor' declared_type='int*' type='^i' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSelectedIndex:'>
+<arg name='index' declared_type='int' type='i' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTitlesColor:'>
+<arg name='color' declared_type='id' type='@' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTitlesFont:'>
+<arg name='font' declared_type='id' type='@' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='SEFilterKnob'>
+<method selector='handlerColor'>
+<retval declared_type='int*' type='^i'/>
+</method>
+<method selector='setHandlerColor:'>
+<arg name='handlerColor' declared_type='int*' type='^i' index='0'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+</signatures>
